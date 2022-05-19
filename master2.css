@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+}
+
+.box1{
+    background-color: #fff;
+    background-image: url('img/c_02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2{
+    background-color: #B18787;
+}
+
+.box3{
+    background-color: #B18787;
+}
+
+.box4{
+    background-color: #fff;
+    background-image: url('img/c_05.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap{
+    position: absolute;
+    display: block;
+    width: 1100px;
+    height: 950px;
+    
+}
+
+.wrap1{}
+
+.img_posi1{
+    position: inherit;
+    top: 75px;
+    left: 222px;
+}
+
+.b1_cont{
+    
+    width: 510px;
+    position: inherit;
+    bottom: 90px;
+    left: 299px;
+    text-align: center;
+
+    font-family: 'NanumSquare';
+    font-style: NanumSquare;
+    font-weight: reguler;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 0;
+
+}
+
+.b2_cont{
+    position: inherit;
+    top: 25px;
+
+    font-style: NanumSquare;
+    font-weight: Regular;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0em;
+    line-height: 1.4;
+
+}
+
+.b3_cont{
+    position: inherit;
+    top: 25px;
+
+    font-style: NanumSquare;
+    font-weight: Regular;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0em;
+    line-height: 1.4;
+
+}
+
+.wrap2{
+    background-image: url('img/c_03.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+
+}
+.wrap3{
+    background-image: url('img/c_04.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.wrap4{}
+
+.b4_cont01{
+    position: inherit;
+    top: 25px;
+
+    font-style: NanumSquare;
+    font-weight: Regular;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0em;
+    line-height: 1.4;
+}
+.b4_cont02{
+    position: inherit;
+    
+    top: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.b4_cont03{
+    position: inherit;
+    top: 755px;
+
+    font-style: NanumSquare;
+    font-weight: Regular;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0em;
+    line-height: 1.4;
+
+}
+.b4_cont04{
+    position: inherit;
+    top: 830px;
+
+    font-style: NanumSquare;
+    font-weight: Regular;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0em;
+    line-height: 1.4;
+}
+.b4_cont05{
+    position: inherit;
+    width: 100%;
+    top:857px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.b4_cont05 > a > img:hover{filter: drop-shadow(0px 0px 8px #000);}
